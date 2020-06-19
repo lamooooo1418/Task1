@@ -1,13 +1,24 @@
-.container { 
-    height: 200px;
-    position: relative;
-    border: 3px solid; 
-  }
+.button1 {
+  border: none;
+  background-color: skyblue;
+  padding: 16px 32px;
+  text-align: center;
+
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  border-radius: 75%;
   
-  .vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
+       
+  border: 2px solid black;
+}
+
+
+body{ background: rgb(8, 33, 8); position: absolute;
+  left: 300px;
+  top: 350px;
+}
+#forwards{position: relative;
+  top: -60px; right: 200px}
+#Backwards{position: relative;
+  top: 60px; right: 350px}
